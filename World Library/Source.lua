@@ -8,7 +8,7 @@ local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
 local PlayerMouse = Player:GetMouse()
 
-local redzlib = {
+local worldlib = {
   Themes = {
     Darker = {
       ["Color Hub 1"] = ColorSequence.new({
