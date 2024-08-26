@@ -1,4 +1,4 @@
-local worldlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/NhatMinhVNQ/Library/main/World%20Library/Source.lua"))()
+local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/NhatMinhVNQ/Library/main/World%20Library/Source.lua"))()
 
 local Window = redzlib:MakeWindow({
   Title = "redz Hub : Blox Fruits",
