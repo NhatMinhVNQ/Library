@@ -1,9 +1,9 @@
-local worldlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/NhatMinhVNQ/Library/main/World%20Library/Source.lua"))()
+local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/NhatMinhVNQ/Library/main/World%20Library/Source.lua"))()
 
 local Window = redzlib:MakeWindow({
-  Title = "World Hub : Roblox",
-  SubTitle = "by m-hutao",
-  SaveFolder = "testando | world lib.lua"
+  Title = "redz Hub : Blox Fruits",
+  SubTitle = "by redz9999",
+  SaveFolder = "testando | redz lib v5.lua"
 })
 local Tab1 = Window:MakeTab({"Um", "cherry"})
 local Tab2 = Window:MakeTab({"Dois", "swords"})
@@ -114,7 +114,10 @@ Dropdown:Select(1)]]
 })
 
 Tab3:AddDiscordInvite({
-  Name = "World Hub | Community",
-  Logo = "rbxassetid://17747757759",
-  Invite = "https://discord.gg/psE8EUa9kg"
+  Name = "redz Hub | Community",
+  Logo = "rbxassetid://15298567397",
+  Invite = "https://discord.gg/7aR7kNVt4g"
 })
+
+-- Simple example ;)
+-- More in soon...
