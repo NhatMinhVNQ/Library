@@ -8,7 +8,7 @@ local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
 local PlayerMouse = Player:GetMouse()
 
-local worldlib = {
+local redzlib = {
   Themes = {
     Darker = {
       ["Color Hub 1"] = ColorSequence.new({
@@ -716,13 +716,13 @@ function redzlib:MakeWindow(Configs)
   ConnectSave(ControlSize1, function()
     if not Minimized then
       redzlib.Save.UISize = {MainFrame.Size.X.Offset, MainFrame.Size.Y.Offset}
-      SaveJson("world lib.json", redzlib.Save)
+      SaveJson("redz library V5.json", redzlib.Save)
     end
   end)
   
   ConnectSave(ControlSize2, function()
     redzlib.Save.TabSize = MainScroll.Size.X.Offset
-    SaveJson("world lib.json", redzlib.Save)
+    SaveJson("redz library V5.json", redzlib.Save)
   end)
   
   local ButtonsFolder = Create("Folder", TopBar, {
